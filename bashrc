@@ -114,6 +114,7 @@ alias ll='ls -l'                              # long list
 alias la='ls -Al'                              # all but . and ..
 alias l='ls -CF'                              #
 alias sshrad='ssh -4 Radish@radish-pc'
+alias tmux='tmux -2'
 
 # Umask
 #
@@ -203,10 +204,10 @@ export TERM="xterm-256color"
 
 
 # setting up the virtualenv wrapper at the start of the session
-export WORKON_HOME=$HOME/.virtualenvs
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-source /usr/bin/virtualenvwrapper.sh
-workon sandbox
+#export WORKON_HOME=$HOME/.virtualenvs
+#export PIP_VIRTUALENV_BASE=$WORKON_HOME
+#source /usr/bin/virtualenvwrapper.sh
+#workon sandbox
 
 # uncomment this to get out of sandbox
 # deactivate
